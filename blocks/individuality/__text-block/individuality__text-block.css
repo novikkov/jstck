@@ -1,0 +1,13 @@
+.individuality__text-block{
+    flex-basis: 40%;
+}
+@media (max-width: 1040px){
+    .individuality__image{
+        width: 100%;
+    }
+}
+@media (max-width: 475px){
+    .individuality__text-block{
+        max-width: 100%;
+    }
+}

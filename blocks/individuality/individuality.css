@@ -1,0 +1,17 @@
+@import url(./__title/individuality__title.css);
+@import url(./__paragraph/individuality__paragraph.css);
+@import url(./__text-block/individuality__text-block.css);
+@import url(./__image/individuality__image.css);
+@import url(./__container/individuality__container.css);
+
+.individuality{
+    max-width: 1197px; 
+    width: 95%;
+    margin: 0 auto 105px;
+}
+
+@media (max-width: 400px){
+    .individuality{
+        margin-bottom: 70px;  
+    }
+}

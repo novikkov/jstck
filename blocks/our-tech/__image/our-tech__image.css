@@ -1,0 +1,10 @@
+.our-tech__image{
+    flex-basis: 40%;
+    mix-blend-mode: multiply;
+}
+
+@media (max-width: 880px){
+    .our-tech__image{
+        width: 50%;
+    } 
+}

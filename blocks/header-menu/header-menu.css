@@ -1,0 +1,28 @@
+@import url(./__btn/header-menu__btn.css);
+@import url(./__info-text/header-menu__info-text.css);
+@import url(./__logo/header-menu__logo.css);
+@import url(./__link-container/header-menu__link-container.css);
+@import url(./__logo/_link/header-menu__logo_link.css);
+@import url(./__container/header-menu__container.css);
+.header-menu{
+    max-width: 1220px;
+	width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 10px;
+    margin-bottom: 128px;
+}
+
+@media screen and (max-width: 1000px){
+    .header-menu{
+        margin-bottom: 90px;
+        background-size: 80%;
+    }
+}
+@media (max-width: 830px){
+    .header-menu{
+        margin-bottom: 90px;
+    }
+}

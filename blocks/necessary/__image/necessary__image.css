@@ -1,0 +1,15 @@
+.necessary__image{
+    padding-top: 10px;
+}
+
+@media (max-width: 815px){
+    .necessary__image{
+        order: 3;
+    }
+}
+
+@media (max-width: 550px){
+    .necessary__image{
+        max-width: 80%;
+    }
+}

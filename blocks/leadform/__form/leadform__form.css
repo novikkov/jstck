@@ -1,0 +1,25 @@
+.leadform__form{
+    width: 218px;
+    height: 52px;
+    background: #FFFFFF;
+    border: 2px solid #E5E5E5;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+.leadform__form{
+    padding-left: 10px;
+}
+.leadform__form::-webkit-input-placeholder::-moz-placeholder::-ms-input-placeholder::-ms-input-placeholder{
+    font-family: 'Avenir Next Cyr';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 20px;
+    color: #979797;
+}
+
+@media (max-width: 715px){
+    .leadform__form{
+        margin-bottom: 10px;
+    }
+}

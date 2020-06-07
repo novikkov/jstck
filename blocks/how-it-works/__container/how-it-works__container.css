@@ -1,0 +1,22 @@
+@import url(./_item/how-it-works__container-item.css);
+.how-it-works__container{
+    width: 100%;
+    max-width: 1120px;
+    margin: 0 auto 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 880px){
+    .how-it-works__container{
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 600px){
+    .how-it-works__container{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}

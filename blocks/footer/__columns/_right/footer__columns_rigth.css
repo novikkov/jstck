@@ -1,0 +1,12 @@
+.footer__columns_rigth{
+    max-width: 60%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 700px){
+    .footer__columns_rigth{
+        flex-direction: column;
+    }
+}

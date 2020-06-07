@@ -1,0 +1,8 @@
+.header-menu__link-container{
+    display: flex;
+    /* justify-content: space-between; */
+    /* width: 55%; */
+    margin-left: 50px;
+    margin-right: auto;
+    align-items: center;
+}

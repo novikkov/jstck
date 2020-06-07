@@ -1,0 +1,5 @@
+@import url(./__title/text-end__title.css);
+.text-end{
+    max-width: 1164px;
+    margin: 0 auto 25px;
+}

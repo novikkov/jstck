@@ -1,0 +1,8 @@
+.description__paragraph_up{
+
+}
+@media (max-width: 962px){
+    .description__paragraph_up{
+        flex-basis: 40%;
+    }
+}

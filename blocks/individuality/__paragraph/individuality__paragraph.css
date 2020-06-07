@@ -1,0 +1,22 @@
+.individuality__paragraph{
+    font-size: 20px;
+    line-height: 27px;
+    max-width: 457px;
+    margin: 0;
+}
+
+@media (max-width: 815px){
+    .individuality__paragraph{
+        margin-bottom: 30px;
+        max-width: 70%;
+        order: 3;
+        max-width: 100%;
+        width: 100%;
+    }
+}
+@media (max-width: 475px){
+    .individuality__paragraph{
+        margin: 0;
+        
+    }
+}

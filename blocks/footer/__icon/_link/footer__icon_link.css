@@ -1,0 +1,6 @@
+.footer__icon_link{
+    padding-right: 5px;
+}
+.footer__icon_link:last-child{
+    padding-right: 0;
+}

@@ -1,0 +1,6 @@
+@import url(./_name/comments__commentator-name.css);
+@import url(./_photo/comments__commentator-photo.css);
+.comments__commentator{
+    display: flex;
+    align-items: center;
+}

@@ -1,0 +1,12 @@
+.btn-text{
+    font-family: 'Avenir Next Cyr';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 0;
+    margin: 0;
+    color: #FFFFFF;
+}

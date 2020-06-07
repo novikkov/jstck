@@ -1,0 +1,10 @@
+.comments__item{
+    max-width: 380px;
+    margin: 0;
+}
+@media (max-width: 880px){
+    .comments__item{
+        margin: 0 auto;
+        margin-bottom: 40px;
+    }
+}

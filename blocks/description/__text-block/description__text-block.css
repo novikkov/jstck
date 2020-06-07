@@ -1,0 +1,10 @@
+.description__text-block{
+    max-width: 572px;
+}
+
+@media (max-width: 962px){
+    .description__text-block{
+        width: 100%;
+        max-width: 100%;
+    }
+}

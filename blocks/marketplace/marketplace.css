@@ -1,0 +1,23 @@
+@import url(./__logo/marketplace__logo.css);
+@import url(./__link/marketplace__link.css);
+.marketplace{
+    max-width: 1098px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0 auto 142px;
+}
+
+@media (max-width: 600px){
+    .marketplace{
+        flex-direction: column;
+        margin-bottom: 60px;
+    }
+}
+@media (max-width: 400px){
+    .marketplace{
+        flex-direction: column;
+        margin-bottom: 40px;
+    }
+}

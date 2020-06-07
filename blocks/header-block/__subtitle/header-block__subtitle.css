@@ -1,0 +1,25 @@
+.header-block__subtitle{
+    max-width: 431px;
+    font-size: 24px;
+    line-height: 33px;
+    margin: 0;
+    padding-bottom: 39px;
+}
+
+.subtitle-orange{
+    color:  #ffa500;
+}
+
+@media (max-width: 580px){
+    .header-block__subtitle{
+        font-size: 18px;
+        line-height: 26px;
+        padding-bottom: 25px;
+    }
+}
+@media (max-width: 400px){
+    .header-block__subtitle{
+        color: black;
+        font-weight: bold;
+    }
+}

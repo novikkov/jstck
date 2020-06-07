@@ -1,0 +1,18 @@
+.experience__title_up{
+    font-size: 80px;
+    line-height: 99px;
+}
+
+@media (max-width: 815px){
+    .experience__title_up{
+        font-size: 72px;
+        line-height: 70px;
+    }
+}
+
+@media (max-width: 475px){
+    .experience__title_up{
+        font-size: 64px;
+        line-height: 60px;
+    }
+}

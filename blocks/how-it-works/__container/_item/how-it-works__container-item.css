@@ -1,0 +1,16 @@
+.how-it-works__container-item{
+    text-align: center;
+    flex-basis: 40%;
+}
+
+@media (max-width: 880px){
+    .how-it-works__container-item:last-of-type{
+        margin: 40px auto;
+    }
+}
+
+@media (max-width: 600px){
+    .how-it-works__container-item{
+        margin-bottom: 40px;
+    }
+}

@@ -1,0 +1,16 @@
+.leadform__subtitle{
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+    margin: 0;
+}
+h3.leadform__subtitle{
+    margin-bottom: 30px;
+}
+
+@media (max-width: 400px){
+    .leadform__subtitle{
+        font-size: 20px;
+        line-height: 25px;
+    }
+}

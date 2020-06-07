@@ -1,0 +1,18 @@
+@import url(./_left/footer__columns_left.css);
+@import url(./_right/footer__columns_rigth.css);
+
+.footer__columns{
+    max-width: 1138px;
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-top: 42px;
+    padding-bottom: 41px;
+}
+
+@media (max-width: 700px){
+    .footer__columns{
+        flex-direction: column;
+    }
+}

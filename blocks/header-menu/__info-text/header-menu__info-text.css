@@ -1,0 +1,11 @@
+.header-menu__info-text{
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-left: 20px;
+}
+.header-menu__info-text:first-child{
+    margin-left: 0;
+}

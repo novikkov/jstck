@@ -1,0 +1,14 @@
+@import url(./__btn/leadform__btn.css);
+@import url(./__form/leadform__form.css);
+@import url(./__forms-container/leadform__forms-container.css);
+@import url(./__subtitle/leadform__subtitle.css);
+@import url(./__title/leadform__title.css);
+
+.leadform{
+    max-width: 100vw;
+    margin: 0 auto 0;
+    background: #F2F5F8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

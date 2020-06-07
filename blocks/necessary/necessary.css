@@ -1,0 +1,17 @@
+@import url(./__image/necessary__image.css);
+@import url(./__paragraph/necessary__paragraph.css);
+@import url(./__text-block/necessary__text-block.css);
+@import url(./__title/necessary__title.css);
+.necessary{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto 160px;
+    max-width: 1197px;
+}
+
+@media (max-width: 815px){
+    .necessary{
+        flex-direction: column;
+    }
+}

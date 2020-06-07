@@ -1,0 +1,91 @@
+.header-menu__container{
+    max-width: 1220px;
+	width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.menu-button{
+    display: none;
+}
+@media (max-width: 830px){
+    .menu-button{
+        display: block;
+        width: 40px;
+        height: 2px;
+        position: absolute;
+        left: 25px;
+        top: 40px;
+        background-color:#026AD6;
+        border: none;
+        cursor: pointer;
+    }
+    .menu-button::before{
+        content: '';
+        display: block;
+        width: 40px;
+        height: 2px;
+        margin-top: -7px;
+        position: absolute;
+        right: 0;
+        top: 0;
+        background-color: #026AD6;
+        transition: transform 0.2s;
+    }
+    .menu-button::after{
+        content: '';
+        display: block;
+        width: 40px;
+        height: 2px;
+        margin-top: 7px;
+        position: absolute;
+        right: 0;
+        top: 0;
+        background-color: #026AD6;
+        transition: transform 0.2s;
+    }
+    .menu-button-active{
+        height: 0;
+    }
+    .menu-button-active::before{
+        transform: rotate(45deg);
+        margin-top: 0;
+    }
+    .menu-button-active::after{
+        transform: rotate(-45deg);
+        margin-top: 0;
+    }
+
+    .header-menu__container{
+        display: none;
+        flex-direction: column;
+        border-radius: 10px;
+        box-shadow: 0px 6px 17px rgba(1, 30, 60, 0.15);
+        background-color: #F2F5F8;
+        width: 30%;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        padding: 40px;
+        margin-right: auto;
+    }
+    .header-active{
+        display: flex;
+        width: 90%;
+    }
+    .header-menu__link-container{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+    .header-menu__info-text{
+        margin-top: 10px;
+    }
+    .header-menu__logo_link{
+        margin-bottom: 10px;
+    }
+    .header-menu__btn{
+        margin-top: 10px;
+    }
+}

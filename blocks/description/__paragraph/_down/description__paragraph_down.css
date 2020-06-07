@@ -1,0 +1,10 @@
+.description__paragraph_down{
+    padding-top: 25px;
+}
+
+@media (max-width: 962px){
+    .description__paragraph_down{
+        flex-basis: 40%;
+        padding: 0;
+    }
+}

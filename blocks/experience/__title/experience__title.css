@@ -1,0 +1,11 @@
+@import url(./_down/experience__title_down.css);
+@import url(./_up/experience__title_up.css);
+
+@media (max-width: 815px){
+    .experience__title{
+        
+    }
+}
+
+
+

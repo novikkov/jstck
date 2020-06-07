@@ -1,0 +1,57 @@
+@import url(./__btn/header-block__btn.css);
+@import url(./__image/header-block__image.css);
+@import url(./__subtitle/header-block__subtitle.css);
+@import url(./__title/header-block__title.css);
+@import url(./__marketplace/header-block__marketplace.css);
+@import url(./__container/header-block__container.css);
+
+.header-block{
+    background-image: url(../../images/header.png);
+    background-size: 700px;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    margin: 0 auto 106px;
+    max-width: 1302px;
+    position: relative;
+    border-radius: 5px;
+}
+
+@media (max-width: 1160px){
+    .header-block{   
+        background-size: 600px;
+    }
+}
+@media (max-width: 1024px){
+    .header-block{   
+        background-size: 500px;
+    }
+}
+@media (max-width: 920px){
+    .header-block{   
+        background-size: 400px;
+    }
+}
+@media (max-width: 790px){
+    .header-block{   
+        background-size: 300px;
+        background-position: bottom 5px right;
+    } 
+}
+@media (max-width: 580px){
+    .header-block{   
+        background-size: 270px;
+        background-position: bottom 10px right;
+    } 
+}
+@media (max-width: 400px){
+    .header-block{   
+        background-size: 250px;
+        margin-bottom: 70px;
+        opacity: 0.3;
+        z-index: 0;
+    } 
+}
+
+
+
+

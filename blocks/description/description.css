@@ -1,0 +1,19 @@
+@import url(./__image/description__image.css);
+@import url(./__paragraph/description__paragraph.css);
+@import url(./__text-block/description__text-block.css);
+@import url(./__title/description__title.css);
+
+.description{
+    max-width: 1164px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto 135px;
+}
+
+@media (max-width: 962px){
+    .description{
+        display: block;
+        margin-bottom: 110px;
+    }
+}

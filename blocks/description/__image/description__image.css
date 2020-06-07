@@ -1,0 +1,26 @@
+.description__image{
+    height: 293px;
+    padding-top: 66px;
+    padding-bottom: 15px;
+}
+
+@media (max-width: 962px){
+    .description__image{
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 615px){
+    .description__image{
+        max-width: 90%;
+    }
+}
+@media (max-width: 400px){
+    .description__image{
+        max-width: 90%;
+        width: 90%;
+        height: auto;
+        padding-top: 30px;
+    }
+}
+

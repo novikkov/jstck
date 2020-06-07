@@ -1,0 +1,13 @@
+.text-end__title{
+    font-size: 30px;
+    line-height: 37px;
+    text-align: center;
+    margin: 0;
+}
+
+@media (max-width: 640px){
+    .text-end__title{
+        font-size: 22px;
+        line-height: 30px;
+    }
+}

@@ -1,0 +1,11 @@
+@import url(./_row/footer__columns-link_row.css);
+.footer__columns-link{
+    font-family: 'Avenir Next Cyr';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: 0.05em;
+    color: #979797;
+    text-decoration: none;
+}

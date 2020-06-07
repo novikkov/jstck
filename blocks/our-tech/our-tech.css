@@ -1,0 +1,11 @@
+@import url(./__block/our-tech__block.css);
+@import url(./__btn/our-tech__btn.css);
+@import url(./__image/our-tech__image.css);
+@import url(./__paragraph/our-tech__paragraph.css);
+@import url(./__container/out-tech__container.css);
+.our-tech{
+    max-width: 100vw;
+    width: 100%;
+    margin: 0 auto 104px;
+    background: #F2F5F8;
+}

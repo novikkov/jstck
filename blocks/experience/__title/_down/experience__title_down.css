@@ -1,0 +1,17 @@
+.experience__title_down{
+    font-size: 36px;
+    line-height: 50px;
+}
+
+@media (max-width: 475px){
+    .experience__title_down{
+        font-size: 28px;
+        line-height: 40px;
+    }
+}
+
+@media (max-width: 400px){
+    .experience__title_down{
+        line-height: 34px;
+    }
+}

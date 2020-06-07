@@ -1,0 +1,16 @@
+.experience__container{
+    max-width: 1197px;
+    width: 95%;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    padding-top: 55px;
+    padding-bottom: 61px;
+}
+
+@media (max-width: 800px){
+    .experience__container{
+        flex-direction: column;
+        align-items: center;
+    }
+}

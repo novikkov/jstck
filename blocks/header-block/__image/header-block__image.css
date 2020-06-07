@@ -1,0 +1,7 @@
+.header-block__image{
+    position: absolute;
+    right: 0;
+    top: 0;
+    /* padding-top: 145px; */
+    z-index: -1;
+}

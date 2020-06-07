@@ -1,0 +1,13 @@
+.our-tech__block{
+    max-width: 488px;
+    width: 40%;
+    flex-basis: 40%;
+    align-items: center;
+}
+
+@media (max-width: 880px){
+    .our-tech__block{
+        width: 100%;
+        text-align: center;
+    }
+}

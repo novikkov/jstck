@@ -1,0 +1,7 @@
+@import url(./_text/header-menu__btn-text.css);
+.header-menu__btn{
+    width: 178px;
+    font-size: 13px;
+    line-height: 18px;
+    color: #fff; 
+}

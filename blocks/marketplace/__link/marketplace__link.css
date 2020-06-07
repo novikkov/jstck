@@ -1,0 +1,11 @@
+@media (max-width: 900px){
+    .marketplace__link{
+        flex-basis: 20%;
+    }
+}
+
+@media (max-width: 600px){
+    .experience__title_down{
+        margin-bottom: 20px;
+    }
+}

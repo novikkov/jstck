@@ -1,0 +1,25 @@
+.marketplace__logo{
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+@media (max-width: 900px){
+    .marketplace__logo{
+        flex-basis: 40%;
+        margin-right: 20px;
+    }
+}
+
+@media (max-width: 600px){
+    .marketplace__logo{
+        margin-bottom: 40px;
+        margin-right: 0;
+    }
+}
+@media (max-width: 400px){
+    .marketplace__logo{
+        margin-bottom: 20px;
+        margin-right: 0;
+    }
+}

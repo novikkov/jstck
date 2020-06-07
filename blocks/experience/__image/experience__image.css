@@ -1,0 +1,16 @@
+.experience__image{
+    mix-blend-mode: multiply;
+}
+
+@media (max-width: 815px){
+    .experience__image{
+        max-width: 100%;
+        width: 50%;
+    }
+}
+@media (max-width: 400px){
+    .experience__image{
+        max-width: 100%;
+        width: 90%;
+    }
+}
